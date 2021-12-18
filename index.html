@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de area y/o perimetro</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="container__title">Calcular el perimetro y/o area de un rectangulo</h1>
+        <label class="container__label" for="lado1">Ingresa la medida en centimetros de la base</label>
+        <input class="container__input" type="number" id="lado1">
+        <label class="container__label" for="lado2">Ingresa la medida en centimetros de la altura </label>
+        <input class="container__input" type="number" id="lado2">
+        <div class=" buttons">
+            <input class="container__input buttons__input buttons__input--button1" type="submit" value="Calcular perimetro">
+            <input class="container__input buttons__input buttons__input--button2" type="submit" value="Calcular área">
+            <input class="container__input buttons__input buttons__input--button3" type="submit" value="Borrar">
+        </div>
+    </div>
+    <div class="resultado"></div>
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
